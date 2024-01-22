@@ -5,15 +5,15 @@ function App() {
   return (
     <div className="mainBody">
       <div className="topHeader">
-        <h1 className="header">MARVELO</h1>
-        <input placeholder="Search a Marvel Character" className="topInput" />
+        <h1 className="header">NARUTO</h1>
+        <input placeholder="Search a NARUTO Character" className="topInput" />
       </div>
       <div className="cardBody">
         {characters.map((data, index) => (
           <div key={index} className="card">
             <div className="main">
               <img className="avatarImage" src={data.img1} alt={data.alias} />
-              <h2>{data.alias}</h2>
+              <h2>{datna.alias}</h2>
               <p className="description">
                 {data?.abilities[0]}
                 <br />
